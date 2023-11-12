@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Components\Entities\Towers\Bat1.cpp" />
+    <ClCompile Include="src\Components\Entities\Towers\Bat2.cpp" />
+    <ClCompile Include="src\Components\Entities\Towers\Lulu.cpp" />
+    <ClCompile Include="src\Components\Entities\Towers\Varus.cpp" />
+    <ClCompile Include="src\Components\Entities\Towers\Nexus.cpp" />
+    <ClCompile Include="src\Components\Entities\Towers\XinZhao.cpp" />
+    <ClCompile Include="src\Components\Carre.cpp" />
+    <ClCompile Include="src\HUDManager.cpp" />
+    <ClCompile Include="src\EventManager.cpp" />
+    <ClCompile Include="src\CameraManager.cpp" />
+    <ClCompile Include="src\Commands\CommandsGame.cpp" />
+    <ClCompile Include="src\Components\Entities\Enemies\EnemyA.cpp" />
+    <ClCompile Include="src\Components\Entities\Enemies\EnemyB.cpp" />
+    <ClCompile Include="src\Components\Entities\Enemies\EnemyC.cpp" />
+    <ClCompile Include="src\Components\Entity.cpp" />
+    <ClCompile Include="src\Components\HealthPointBar.cpp" />
+    <ClCompile Include="src\AudioManager.cpp" />
+    <ClCompile Include="src\AssetManager.cpp" />
+    <ClCompile Include="src\Components\FireBullet.cpp" />
+    <ClCompile Include="src\Command.cpp" />
+    <ClCompile Include="src\Components\Button.cpp" />
+    <ClCompile Include="src\Components\Entities\Player.cpp" />
+    <ClCompile Include="src\Components\SpriteRenderer.cpp" />
+    <ClCompile Include="src\Components\SquareCollider.cpp" />
+    <ClCompile Include="src\Components\Component.cpp" />
+    <ClCompile Include="src\Components\Entities\EnemyAbstract.cpp" />
+    <ClCompile Include="src\GameObject.cpp" />
+    <ClCompile Include="src\Scene.cpp" />
+    <ClCompile Include="src\Maths\Vector2.cpp" />
+    <ClCompile Include="src\SceneManager.cpp" />
+    <ClCompile Include="src\Scenes\SceneMainMenu.cpp" />
+    <ClCompile Include="src\Components\Slider.cpp" />
+    <ClCompile Include="src\Scenes\SceneGameAbstract.cpp" />
+    <ClCompile Include="src\Scenes\SceneSuccessMenu.cpp" />
+    <ClCompile Include="src\Scenes\SceneRankMenu.cpp" />
+    <ClCompile Include="src\Scenes\ScenesGame\SceneGameLVSR.cpp" />
+    <ClCompile Include="src\Components\Inputs\InputGame.cpp" />
+    <ClCompile Include="src\Scenes\SceneCreditsMenu.cpp" />
+    <ClCompile Include="src\Components\Ressource.cpp" />
+    <ClCompile Include="src\WindowManager.cpp" />
+    <ClCompile Include="src\Maths\Vector2.cpp" />
+    <ClCompile Include="src\Round\CreateRound.cpp" />
+    <ClCompile Include="src\Components\Entities\TowerAbstract.cpp" />
+    <ClCompile Include="src\Components\Entities\Towers\Malphite.cpp" />
+    <ClCompile Include="src\Scenes\SceneLoginSignup.cpp" />
+    <ClCompile Include="src\Components\Input.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Components\Entities\Towers\Bat1.h" />
+    <ClInclude Include="include\Components\Entities\Towers\Bat2.h" />
+    <ClInclude Include="include\Components\Entities\Towers\Lulu.h" />
+    <ClInclude Include="include\Components\Entities\Towers\Varus.h" />
+    <ClInclude Include="include\Components\Entities\Towers\Nexus.h" />
+    <ClInclude Include="include\Components\Entities\Towers\XinZhao.h" />
+    <ClInclude Include="include\Components\Carre.h" />
+    <ClInclude Include="include\HUDManager.h" />
+    <ClInclude Include="include\EventManager.h" />
+    <ClInclude Include="include\CameraManager.h" />
+    <ClInclude Include="include\Commands\CommandsGame.h" />
+    <ClInclude Include="include\Components\Entities\Enemies\EnemyA.h" />
+    <ClInclude Include="include\Components\Entities\Enemies\EnemyB.h" />
+    <ClInclude Include="include\Components\Entities\Enemies\EnemyC.h" />
+    <ClInclude Include="include\Components\Entity.h" />
+    <ClInclude Include="include\Components\HealthPointBar.h" />
+    <ClInclude Include="include\AudioManager.h" />
+    <ClInclude Include="include\AssetManager.h" />
+    <ClInclude Include="include\Components\FireBullet.h" />
+    <ClInclude Include="include\Command.h" />
+    <ClInclude Include="include\Components\Button.h" />
+    <ClInclude Include="include\Components\Entities\Player.h" />
+    <ClInclude Include="include\Components\SpriteRenderer.h" />
+    <ClInclude Include="include\Components\SquareCollider.h" />
+    <ClInclude Include="include\Components\Component.h" />
+    <ClInclude Include="include\Components\Entities\EnemyAbstract.h" />
+    <ClInclude Include="include\GameObject.h" />
+    <ClInclude Include="include\Scene.h" />
+    <ClInclude Include="include\Maths\Vector2.h" />
+    <ClInclude Include="include\SceneManager.h" />
+    <ClInclude Include="include\Scenes\SceneMainMenu.h" />
+    <ClInclude Include="include\Components\Slider.h" />
+    <ClInclude Include="include\Scenes\SceneGameAbstract.h" />
+    <ClInclude Include="include\Scenes\SceneSuccessMenu.h" />
+    <ClInclude Include="include\Scenes\SceneRankMenu.h" />
+    <ClInclude Include="include\Scenes\ScenesGame\SceneGameLVSR.h" />
+    <ClInclude Include="include\Components\Inputs\InputGame.h" />
+    <ClInclude Include="include\Scenes\SceneCreditsMenu.h" />
+    <ClInclude Include="include\Components\Ressource.h" />
+    <ClInclude Include="include\WindowManager.h" />
+    <ClInclude Include="include\Round\CreateRound.h" />
+    <ClInclude Include="include\Components\Entities\TowerAbstract.h" />
+    <ClInclude Include="include\Components\Entities\Towers\Malphite.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="include\Components\Spawn.h" />
+    <ClInclude Include="include\Scenes\SceneLoginSignup.h" />
+    <ClInclude Include="include\Components\Input.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\Maths\Vector2.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameObjectLib.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\Components\Entities\Enemies\Enemy.txt" />
+  </ItemGroup>
+</Project>
